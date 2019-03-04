@@ -12,7 +12,7 @@ class CharacterTableViewController: UIViewController {
 
     @IBOutlet weak var tableView: UITableView!
 
-    var characters: [Character] = []
+    var characters: [Simpson] = []
     
     override func viewDidLoad() {
         super.viewDidLoad()

@@ -16,7 +16,7 @@ class CharacterDescriptionViewController: UIViewController {
     @IBOutlet weak var imageView: UIImageView!
     
     
-    var character: Character!
+    var character: Simpson!
     
     override func viewDidLoad() {
         super.viewDidLoad()

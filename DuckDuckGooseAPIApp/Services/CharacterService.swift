@@ -40,8 +40,8 @@ class CharacterService{
         urlString = urlBeg + s + urlEnd
     }
     
-    static func downloadPicture(for character: Character,
-                         completion: @escaping (Character)->()) {
+    static func downloadPicture(for character: Simpson,
+                         completion: @escaping (Simpson)->()) {
      
         
         
@@ -62,7 +62,7 @@ class CharacterService{
     
     
     
-    static func downloadJSON(completion: @escaping ([Character])->() ){
+    static func downloadJSON(completion: @escaping ([Simpson])->() ){
         
         
         guard let url = URL(string: CharacterService.urlString) else {
@@ -83,16 +83,15 @@ class CharacterService{
                 
                 let decoder = JSONDecoder()
                 do {
-                    
+                    /*
                     let t = try decoder.decode(TopLevel.self, from: dat)
-                    
                     var characters = [Character]()
                     for r in t.RelatedTopics{
-                        
                         characters.append(Character(r.Text, r.Icon.URL))
                     }
-                    
-                    completion(characters)
+                    */
+                    let character = try decoder.decode(Simpsons.self, from: dat)
+                    completion(character.simpsons)
                     
                 }
                 catch {

@@ -12,7 +12,7 @@ class CharacterCollectionViewController: UIViewController {
 
     @IBOutlet weak var collectionView: UICollectionView!
 
-    var characters : [Character] = []
+    var characters : [Simpson] = []
 
     override func viewDidLoad() {
         super.viewDidLoad()
