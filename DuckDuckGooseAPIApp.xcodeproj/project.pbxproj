@@ -8,12 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		0285AAAE222A10BB0070F4CC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0285AAAD222A10BB0070F4CC /* AppDelegate.swift */; };
-		0285AAB0222A10BB0070F4CC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0285AAAF222A10BB0070F4CC /* ViewController.swift */; };
+		0285AAB0222A10BB0070F4CC /* CharacterTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0285AAAF222A10BB0070F4CC /* CharacterTableViewController.swift */; };
 		0285AAB3222A10BB0070F4CC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0285AAB1222A10BB0070F4CC /* Main.storyboard */; };
 		0285AAB5222A10C50070F4CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0285AAB4222A10C50070F4CC /* Assets.xcassets */; };
 		0285AAB8222A10C50070F4CC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0285AAB6222A10C50070F4CC /* LaunchScreen.storyboard */; };
 		0285AAC3222A10C50070F4CC /* DuckDuckGooseAPIAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0285AAC2222A10C50070F4CC /* DuckDuckGooseAPIAppTests.swift */; };
 		0285AACE222A10C50070F4CC /* DuckDuckGooseAPIAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0285AACD222A10C50070F4CC /* DuckDuckGooseAPIAppUITests.swift */; };
+		0285AADC222A13000070F4CC /* CharacterCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0285AADB222A13000070F4CC /* CharacterCollectionViewController.swift */; };
+		0285AAE1222A13D40070F4CC /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0285AAE0222A13D40070F4CC /* Character.swift */; };
+		0285AAE4222A146C0070F4CC /* CharacterService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0285AAE3222A146C0070F4CC /* CharacterService.swift */; };
+		0285AAE6222A1DA60070F4CC /* CharacterCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0285AAE5222A1DA50070F4CC /* CharacterCollectionViewCell.swift */; };
+		0285AAE8222B06450070F4CC /* donut.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0285AAE7222B06450070F4CC /* donut.jpg */; };
+		0285AAEA222B0C5A0070F4CC /* CharacterNavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0285AAE9222B0C5A0070F4CC /* CharacterNavigationViewController.swift */; };
+		0285AAEC222B0D340070F4CC /* CharacterDescriptionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0285AAEB222B0D340070F4CC /* CharacterDescriptionViewController.swift */; };
+		0285AAEE222B6F300070F4CC /* ChooseFranchiseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0285AAED222B6F300070F4CC /* ChooseFranchiseViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +44,7 @@
 /* Begin PBXFileReference section */
 		0285AAAA222A10BB0070F4CC /* DuckDuckGooseAPIApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DuckDuckGooseAPIApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0285AAAD222A10BB0070F4CC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		0285AAAF222A10BB0070F4CC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0285AAAF222A10BB0070F4CC /* CharacterTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterTableViewController.swift; sourceTree = "<group>"; };
 		0285AAB2222A10BB0070F4CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0285AAB4222A10C50070F4CC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0285AAB7222A10C50070F4CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +55,14 @@
 		0285AAC9222A10C50070F4CC /* DuckDuckGooseAPIAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DuckDuckGooseAPIAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0285AACD222A10C50070F4CC /* DuckDuckGooseAPIAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DuckDuckGooseAPIAppUITests.swift; sourceTree = "<group>"; };
 		0285AACF222A10C50070F4CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0285AADB222A13000070F4CC /* CharacterCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterCollectionViewController.swift; sourceTree = "<group>"; };
+		0285AAE0222A13D40070F4CC /* Character.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
+		0285AAE3222A146C0070F4CC /* CharacterService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterService.swift; sourceTree = "<group>"; };
+		0285AAE5222A1DA50070F4CC /* CharacterCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterCollectionViewCell.swift; sourceTree = "<group>"; };
+		0285AAE7222B06450070F4CC /* donut.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = donut.jpg; sourceTree = "<group>"; };
+		0285AAE9222B0C5A0070F4CC /* CharacterNavigationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterNavigationViewController.swift; sourceTree = "<group>"; };
+		0285AAEB222B0D340070F4CC /* CharacterDescriptionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterDescriptionViewController.swift; sourceTree = "<group>"; };
+		0285AAED222B6F300070F4CC /* ChooseFranchiseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseFranchiseViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,9 +113,12 @@
 		0285AAAC222A10BB0070F4CC /* DuckDuckGooseAPIApp */ = {
 			isa = PBXGroup;
 			children = (
+				0285AAE7222B06450070F4CC /* donut.jpg */,
+				0285AAE2222A14520070F4CC /* Services */,
+				0285AADF222A13C10070F4CC /* Model */,
+				0285AADE222A13B70070F4CC /* View */,
+				0285AADD222A13A60070F4CC /* ViewController */,
 				0285AAAD222A10BB0070F4CC /* AppDelegate.swift */,
-				0285AAAF222A10BB0070F4CC /* ViewController.swift */,
-				0285AAB1222A10BB0070F4CC /* Main.storyboard */,
 				0285AAB4222A10C50070F4CC /* Assets.xcassets */,
 				0285AAB6222A10C50070F4CC /* LaunchScreen.storyboard */,
 				0285AAB9222A10C50070F4CC /* Info.plist */,
@@ -123,6 +142,43 @@
 				0285AACF222A10C50070F4CC /* Info.plist */,
 			);
 			path = DuckDuckGooseAPIAppUITests;
+			sourceTree = "<group>";
+		};
+		0285AADD222A13A60070F4CC /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				0285AAAF222A10BB0070F4CC /* CharacterTableViewController.swift */,
+				0285AADB222A13000070F4CC /* CharacterCollectionViewController.swift */,
+				0285AAE9222B0C5A0070F4CC /* CharacterNavigationViewController.swift */,
+				0285AAEB222B0D340070F4CC /* CharacterDescriptionViewController.swift */,
+				0285AAED222B6F300070F4CC /* ChooseFranchiseViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		0285AADE222A13B70070F4CC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0285AAB1222A10BB0070F4CC /* Main.storyboard */,
+				0285AAE5222A1DA50070F4CC /* CharacterCollectionViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0285AADF222A13C10070F4CC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0285AAE0222A13D40070F4CC /* Character.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0285AAE2222A14520070F4CC /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				0285AAE3222A146C0070F4CC /* CharacterService.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,6 +287,7 @@
 			files = (
 				0285AAB8222A10C50070F4CC /* LaunchScreen.storyboard in Resources */,
 				0285AAB5222A10C50070F4CC /* Assets.xcassets in Resources */,
+				0285AAE8222B06450070F4CC /* donut.jpg in Resources */,
 				0285AAB3222A10BB0070F4CC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -256,8 +313,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0285AAB0222A10BB0070F4CC /* ViewController.swift in Sources */,
+				0285AAE6222A1DA60070F4CC /* CharacterCollectionViewCell.swift in Sources */,
+				0285AAE4222A146C0070F4CC /* CharacterService.swift in Sources */,
+				0285AADC222A13000070F4CC /* CharacterCollectionViewController.swift in Sources */,
+				0285AAEC222B0D340070F4CC /* CharacterDescriptionViewController.swift in Sources */,
+				0285AAB0222A10BB0070F4CC /* CharacterTableViewController.swift in Sources */,
+				0285AAEA222B0C5A0070F4CC /* CharacterNavigationViewController.swift in Sources */,
+				0285AAEE222B6F300070F4CC /* ChooseFranchiseViewController.swift in Sources */,
 				0285AAAE222A10BB0070F4CC /* AppDelegate.swift in Sources */,
+				0285AAE1222A13D40070F4CC /* Character.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
