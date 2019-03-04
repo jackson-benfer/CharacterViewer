@@ -15,13 +15,13 @@
 		0285AAC3222A10C50070F4CC /* DuckDuckGooseAPIAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0285AAC2222A10C50070F4CC /* DuckDuckGooseAPIAppTests.swift */; };
 		0285AACE222A10C50070F4CC /* DuckDuckGooseAPIAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0285AACD222A10C50070F4CC /* DuckDuckGooseAPIAppUITests.swift */; };
 		0285AADC222A13000070F4CC /* CharacterCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0285AADB222A13000070F4CC /* CharacterCollectionViewController.swift */; };
-		0285AAE1222A13D40070F4CC /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0285AAE0222A13D40070F4CC /* Character.swift */; };
 		0285AAE4222A146C0070F4CC /* CharacterService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0285AAE3222A146C0070F4CC /* CharacterService.swift */; };
 		0285AAE6222A1DA60070F4CC /* CharacterCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0285AAE5222A1DA50070F4CC /* CharacterCollectionViewCell.swift */; };
 		0285AAE8222B06450070F4CC /* donut.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0285AAE7222B06450070F4CC /* donut.jpg */; };
 		0285AAEA222B0C5A0070F4CC /* CharacterNavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0285AAE9222B0C5A0070F4CC /* CharacterNavigationViewController.swift */; };
 		0285AAEC222B0D340070F4CC /* CharacterDescriptionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0285AAEB222B0D340070F4CC /* CharacterDescriptionViewController.swift */; };
 		0285AAEE222B6F300070F4CC /* ChooseFranchiseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0285AAED222B6F300070F4CC /* ChooseFranchiseViewController.swift */; };
+		3F7C8C7D222D8121005DD6C1 /* Simpson.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7C8C7C222D8120005DD6C1 /* Simpson.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,13 +56,13 @@
 		0285AACD222A10C50070F4CC /* DuckDuckGooseAPIAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DuckDuckGooseAPIAppUITests.swift; sourceTree = "<group>"; };
 		0285AACF222A10C50070F4CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0285AADB222A13000070F4CC /* CharacterCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterCollectionViewController.swift; sourceTree = "<group>"; };
-		0285AAE0222A13D40070F4CC /* Character.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
 		0285AAE3222A146C0070F4CC /* CharacterService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterService.swift; sourceTree = "<group>"; };
 		0285AAE5222A1DA50070F4CC /* CharacterCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterCollectionViewCell.swift; sourceTree = "<group>"; };
 		0285AAE7222B06450070F4CC /* donut.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = donut.jpg; sourceTree = "<group>"; };
 		0285AAE9222B0C5A0070F4CC /* CharacterNavigationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterNavigationViewController.swift; sourceTree = "<group>"; };
 		0285AAEB222B0D340070F4CC /* CharacterDescriptionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterDescriptionViewController.swift; sourceTree = "<group>"; };
 		0285AAED222B6F300070F4CC /* ChooseFranchiseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseFranchiseViewController.swift; sourceTree = "<group>"; };
+		3F7C8C7C222D8120005DD6C1 /* Simpson.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Simpson.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -168,7 +168,7 @@
 		0285AADF222A13C10070F4CC /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				0285AAE0222A13D40070F4CC /* Character.swift */,
+				3F7C8C7C222D8120005DD6C1 /* Simpson.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -321,7 +321,7 @@
 				0285AAEA222B0C5A0070F4CC /* CharacterNavigationViewController.swift in Sources */,
 				0285AAEE222B6F300070F4CC /* ChooseFranchiseViewController.swift in Sources */,
 				0285AAAE222A10BB0070F4CC /* AppDelegate.swift in Sources */,
-				0285AAE1222A13D40070F4CC /* Character.swift in Sources */,
+				3F7C8C7D222D8121005DD6C1 /* Simpson.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

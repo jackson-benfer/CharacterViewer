@@ -37,11 +37,11 @@ class ChooseFranchiseViewController: UIViewController {
                 
                 for vc in vcS{
                     if let table = vc as? CharacterTableViewController{
-                        table.characters = [Character]()
+                        table.characters = [Simpson]()
                     }
                     
                     if let collection = vc as? CharacterCollectionViewController{
-                        collection.characters = [Character]()
+                        collection.characters = [Simpson]()
                     }
                     
                     
